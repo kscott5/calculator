@@ -1,5 +1,6 @@
 package calculator_test
 
+// Documentation of package location, GOPATH or GOROOT expected instruction not working 
 import "github.com/kscott5/calculator"
 import "testing"
 
