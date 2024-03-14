@@ -6,7 +6,7 @@ var logMessage = "[LOG]"
 var AppName = "Calculator"
 
 // Version of calculator
-var Version = "1.0"
+var Version = "v0.1"
 
 func internalSum(number int) int {
 	return number - 1

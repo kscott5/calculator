@@ -1,12 +1,15 @@
 package calculator_test
 
-// Documentation of package location, GOPATH or GOROOT expected instruction not working 
-import "github.com/kscott5/calculator"
-import "testing"
+// Documentation of package location, GOPATH or GOROOT expected instruction not working
+import (
+	"testing"
+
+	"github.com/kscott5/calculator"
+)
 
 func TestSum(t *testing.T) {
 	expect := 3
-	actual := calculator.Sum(1,2)
+	actual := calculator.Sum(1, 2)
 
 	if expect != actual {
 		t.Errorf("Sum: expected %d got %d", expect, actual)
