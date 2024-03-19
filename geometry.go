@@ -12,6 +12,10 @@ func (t *Triangle) SetSize(size int) {
 	t.size = size
 }
 
+func (t Triangle) Size() int {
+	return t.size
+}
+
 func (t *Triangle) Perimeter() int {
 	t.doubleSize()
 	return t.size * 3
